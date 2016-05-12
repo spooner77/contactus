@@ -38,7 +38,7 @@ $sql = "CREATE TABLE `" . OW_DB_PREFIX . "contactus_department` (
 )
 ENGINE=MyISAM
 ROW_FORMAT=DEFAULT";
-//installing database
+//installing database11111
 OW::getDbo()->query($sql);
 //installing language pack
 OW::getLanguage()->importPluginLangs(OW::getPluginManager()->getPlugin('contactus')->getRootDir().'langs.zip', 'contactus');
