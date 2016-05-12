@@ -43,4 +43,4 @@ OW::getDbo()->query($sql);
 //installing language pack
 OW::getLanguage()->importPluginLangs(OW::getPluginManager()->getPlugin('contactus')->getRootDir().'langs.zip', 'contactus');
 //adding admin settings page
-OW::getPluginManager()->addPluginSettingsRouteName('contactus', 'contactus.admin');
+OW::getPluginManager()->addPluginSettingsRouteName('contactus', 'contactus.admin');   
